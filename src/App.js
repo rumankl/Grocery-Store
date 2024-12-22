@@ -10,6 +10,7 @@ import News from './pages/News'
 import SignUp from './features/auth/SignUp'
 import Login from './features/auth/Login'
 import UserRoutes from './components/UserRoutes'
+import ListCard from './Home/ListCard'
 
 
 const App = () => {
@@ -21,8 +22,10 @@ const App = () => {
         {
           index: true,
           element: <HomePage />
-        },
-        {
+        }, {
+          path: 'item/:category',
+          element: <ListCard />
+        }, {
           path: 'about-page',
           element: <AboutPage />
         },

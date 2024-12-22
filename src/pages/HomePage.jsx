@@ -1,6 +1,7 @@
 
 
 import Categories from '../Home/Categories';
+import FeedBack from '../Home/FeedBack';
 // import Popup from '../Home/Popup';
 
 
@@ -27,6 +28,7 @@ const HomePage = () => {
         </div>
       </div>
       <Categories />
+      <FeedBack />
       {/* <Popup /> */}
 
     </div>

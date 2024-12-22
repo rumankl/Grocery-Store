@@ -13,17 +13,25 @@ body {
 }
 
 .ht {
-   @apply hover:underline underline-offset-4  ;
+  @apply hover:underline underline-offset-4;
 }
 
-/* @keyframes slide-in {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+
+.feedback-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
-.animated-text {
-  animation: slide-in 1s ease-in-out;
-} */
+
+.feedback-slide {
+  min-width: 50%;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.feedback-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
