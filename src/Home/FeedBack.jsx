@@ -23,7 +23,7 @@ const Feedback = () => {
 
 
   return (
-    <div className="text-center mt-10">
+    <div className="text-center mt-10 mb-10">
       <h1 className="text-3xl text-orange-400 ">Our Feedback List</h1>
       <p>What our honorable customers say!</p>
       <div className="feedback-wrapper mt-6 ">
